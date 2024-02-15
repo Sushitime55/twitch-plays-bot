@@ -14,7 +14,7 @@ from key_codes import *
 #################### HOW TO USE #####################
 
 # 1. change user variables to match twitch channel and game window
-# 2. add/edit commands in game_control() (line 105)
+# 2. add/edit commands in game_control() (line 101)
 # 3. run program
 # 4. to stop the program: press SHIFT, then type any message in chat to exit program (scuffed exit method due to threading, sorry!)
 

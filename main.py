@@ -4,7 +4,6 @@ import pywinauto
 import keyboard
 import sys
 import random
-import warnings
 import time
 from key_codes import *
 
@@ -28,9 +27,6 @@ CHANNEL = "channelname"
 WINDOW = "mGBA - Pokemon - Emerald Version (USA, Europe) - 0.10.3"
 
 #####################################################
-
-# suppress warnings for sending {key down} inputs to out of focus windows
-warnings.simplefilter("ignore", category=UserWarning)
 
 # count down before starting, so you have time to set your game as the active window if needed
 countdown = 5
